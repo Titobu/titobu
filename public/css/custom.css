@@ -1,0 +1,16 @@
+.to-dark-theme-bg {
+    /*background: #18191A;*/
+    background: #1f1f1f;
+}
+
+.to-light-theme-bg {
+    background: #e6e6e6;
+}
+
+.to-dark-theme-text {
+    color: white;
+}
+
+.to-light-theme-text {
+    color: #1f1f1f;
+}
