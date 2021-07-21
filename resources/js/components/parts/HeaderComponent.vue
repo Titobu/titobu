@@ -27,6 +27,7 @@
 <script>
 export default {
     name: "HeaderComponent",
+    homeRoute: "",
     data: () => {
         return {
             themes: ["light", "dark"],
@@ -41,11 +42,13 @@ export default {
 
                 this.addClassToElementById("app", "to-light-theme-bg", "to-dark-theme-bg");
                 this.addClassToElementById("header", "to-light-theme-text", "to-dark-theme-text");
+                this.addClassToElementById("socials", "to-light-theme-text", "to-dark-theme-text");
             }else {
                 this.activeTheme = this.themes[0];
 
                 this.addClassToElementById("app", "to-dark-theme-bg", "to-light-theme-bg");
                 this.addClassToElementById("header", "to-dark-theme-text", "to-light-theme-text");
+                this.addClassToElementById("socials", "to-dark-theme-text", "to-light-theme-text");
             }
         },
         setTheme() {
@@ -53,9 +56,11 @@ export default {
             {
                 this.addClassToElementById("app", "to-dark-theme-bg", "to-light-theme-bg");
                 this.addClassToElementById("header", "to-dark-theme-text", "to-light-theme-text");
+                this.addClassToElementById("socials", "to-dark-theme-text", "to-light-theme-text");
             }else {
                 this.addClassToElementById("app", "to-light-theme-bg", "to-dark-theme-bg");
                 this.addClassToElementById("header", "to-light-theme-text", "to-dark-theme-text");
+                this.addClassToElementById("socials", "to-light-theme-text", "to-dark-theme-text");
             }
         },
         addClassToElementById(elementId, classNameToRemove, classNameToAdd) {
@@ -111,6 +116,7 @@ ul {
 li{
     display: inline-block;
     list-style: none;
+    cursor: pointer;
 }
 
 li a{

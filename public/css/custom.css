@@ -1,5 +1,10 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 .to-dark-theme-bg {
-    /*background: #18191A;*/
     background: #1f1f1f;
 }
 

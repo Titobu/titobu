@@ -2,17 +2,20 @@
 <div>
     <div class="main">
         <home-main-component/>
+        <projects-main-component/>
     </div>
 </div>
 </template>
 
 <script>
 import HomeMainComponent from "../home/HomeMainComponent";
+import ProjectsMainComponent from "../projects/ProjectsMainComponent";
 
 export default {
     name: "MainComponent",
     components: {
-        HomeMainComponent
+        HomeMainComponent,
+        ProjectsMainComponent
     }
 }
 </script>

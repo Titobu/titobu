@@ -12,6 +12,14 @@
                     <a class="button" href="">GET IN TOUCH</a>
                 </div>
             </div>
+
+            <div class="socials">
+                <ul id="socials" class="socials">
+                    <li class="git"><a class="socials" href=""><i class="fab fa-git"></i></a></li>
+                    <li class="in"><a class="socials" href=""><i class="fab fa-linkedin-in"></i></a></li>
+                    <li class="fb"><a class="socials" href=""><i class="fab fa-facebook-f"></i></a></li>
+                </ul>
+            </div>
         </div>
     </div>
 </template>
@@ -61,4 +69,33 @@ a.button {
     text-decoration: none;
     font-size: 1.2rem;
 }
+
+/*SOCIALS*/
+div.socials {
+    position: absolute;
+    bottom: 0;
+}
+
+ul.socials {
+    padding: 1em;
+}
+
+li.git {
+    font-size: 2em;
+}
+
+li.in {
+    font-size: 1.3em;
+}
+
+li.fb {
+    padding-top: 0.5em;
+    font-size: 1.1em;
+}
+
+a.socials {
+    color: inherit;
+}
+
+
 </style>
