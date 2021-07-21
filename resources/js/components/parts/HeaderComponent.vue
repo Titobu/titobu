@@ -16,8 +16,8 @@
 
         <div class="options">
             <ul>
-                <li @click="selectTheme()" v-if="activeTheme === 'light'"><i class="fas fa-moon fa-moon-color"></i></li>
-                <li @click="selectTheme()" v-if="activeTheme === 'dark'"><i class="fas fa-sun fa-sun-color"></i></li>
+                <li @click="selectTheme()" v-if="activeTheme === 'light'"><i class="fas fa-moon to-light-theme-text"></i></li>
+                <li @click="selectTheme()" v-if="activeTheme === 'dark'"><i class="fas fa-sun to-dark-theme-text"></i></li>
             </ul>
         </div>
     </div>
@@ -123,16 +123,6 @@ li a{
     font-family: 'Poppins', sans-serif;
     padding: 0 10px;
     color: inherit;
-}
-
-/*OPTIONS*/
-
-.fa-sun-color{
-    color: yellow;
-}
-
-.fa-moon-color{
-    color: #1f1f1f;
 }
 
 </style>

@@ -6675,7 +6675,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap);"]);
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Saira+Stencil+One&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.header[data-v-55045de6] {\n    width: 100%;\n    height: 10vh;\n    min-height: 2rem;\n    display: flex;\n    justify-content: space-around;\n    align-items: flex-end;\n}\n\n/*LOGO*/\na.logo[data-v-55045de6]{\n    font-family: 'Saira Stencil One', cursive;\n    box-sizing: border-box;\n    font-size: 2rem;\n    line-height: 1.2;\n    /*color: #131313;*/\n    color: inherit;\n}\na[data-v-55045de6]:hover {\n    text-decoration: none;\n}\nspan[data-v-55045de6]{\n    color: darkred;\n}\n\n/*MENU*/\nul[data-v-55045de6] {\n    margin: 0;\n    padding: 0;\n}\nli[data-v-55045de6]{\n    display: inline-block;\n    list-style: none;\n    cursor: pointer;\n}\nli a[data-v-55045de6]{\n    font-family: 'Poppins', sans-serif;\n    padding: 0 10px;\n    color: inherit;\n}\n\n/*OPTIONS*/\n.fa-sun-color[data-v-55045de6]{\n    color: yellow;\n}\n.fa-moon-color[data-v-55045de6]{\n    color: #1f1f1f;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.header[data-v-55045de6] {\n    width: 100%;\n    height: 10vh;\n    min-height: 2rem;\n    display: flex;\n    justify-content: space-around;\n    align-items: flex-end;\n}\n\n/*LOGO*/\na.logo[data-v-55045de6]{\n    font-family: 'Saira Stencil One', cursive;\n    box-sizing: border-box;\n    font-size: 2rem;\n    line-height: 1.2;\n    /*color: #131313;*/\n    color: inherit;\n}\na[data-v-55045de6]:hover {\n    text-decoration: none;\n}\nspan[data-v-55045de6]{\n    color: darkred;\n}\n\n/*MENU*/\nul[data-v-55045de6] {\n    margin: 0;\n    padding: 0;\n}\nli[data-v-55045de6]{\n    display: inline-block;\n    list-style: none;\n    cursor: pointer;\n}\nli a[data-v-55045de6]{\n    font-family: 'Poppins', sans-serif;\n    padding: 0 10px;\n    color: inherit;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -38791,7 +38791,7 @@ var render = function() {
                     }
                   }
                 },
-                [_c("i", { staticClass: "fas fa-moon fa-moon-color" })]
+                [_c("i", { staticClass: "fas fa-moon to-light-theme-text" })]
               )
             : _vm._e(),
           _vm._v(" "),
@@ -38805,7 +38805,7 @@ var render = function() {
                     }
                   }
                 },
-                [_c("i", { staticClass: "fas fa-sun fa-sun-color" })]
+                [_c("i", { staticClass: "fas fa-sun to-dark-theme-text" })]
               )
             : _vm._e()
         ])
